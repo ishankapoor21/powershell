@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "diskType": {
+            "value": "StandardSSD_LRS"
+        },
+        "vmName": {
+            "value": "ishan-iis"
+        },
+        "vmSize": {
+            "value": "Standard_A2_v2"
+        },
+        "imageSKU": {
+            "value": "2019-Datacenter"
+        },
+        "adminUsername": {
+            "value": "ishan"
+        },
+        "adminPassword": {
+            "value": "Einstien1729"
+        },
+        "moduleFilePath": {
+            "value": "ContosoWebsite.ps1.zip"
+        },
+        "configurationFunction": {
+            "value": "ContosoWebsite.ps1\\ContosoWebsite"
+        },
+        "location": {
+            "value": "eastus"
+        }
+    }
+}
